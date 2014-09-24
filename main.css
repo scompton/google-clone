@@ -1,0 +1,224 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+:focus {
+  outline: 0;
+}
+
+body {
+  font-family: Arial;
+  font-size: small;
+}
+
+#headerLinksUL {
+  margin-right: 20px;
+  text-align: right;
+}
+
+.headerLink {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px 8px 10px 8px;
+}
+
+#signInButton {
+  color: white;
+  text-align: center;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 10px 8px 10px;
+  font-weight: bold;
+  background-color: #4d90fe;
+  background: -webkit-linear-gradient(#4d90fe, #4787ed);
+  background:    -moz-linear-gradient(#4d90fe, #4787ed);
+  background:         linear gradient(#4d90fe, #4787ed);
+}
+#signInButton:hover {
+  box-shadow: 0px 1px 1px #4787ed;
+  -webkit-box-shadow: 0px 1px 1px #4787ed;
+  -moz-box-shadow: 0px 1px 1px #4787ed;
+}
+
+#logo {
+  clear: both;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 10px;
+}
+
+#searchDiv {
+  margin: auto;
+  min-width: 580px;
+  width: 584px;
+  height: 28px;
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid LightGray;
+}
+#searchDiv:hover {
+  border: 1px solid DarkGray;
+}
+#searchDiv:focus {
+  border: 1px solid #4787ed;
+}
+
+#searchForm {
+  display: inline-block;
+  width: 552px;
+  height: 28px;
+  vertical-align: top;
+}
+#searchInput {
+  display: block;
+  height: 100%;
+  width: 100%;
+  border: none;
+  line-height: 20px;
+  /*background: white url(images/microphone.png) right no-repeat;
+  background-size: contain;*/
+}
+#searchInput:focus {
+  outline: 0;
+  /*border: 1px solid #4787ed;*/
+}
+
+#microphone {
+  display: inline-block;
+  height: 28px;
+  width: 28px;
+}
+span #microphoneDD {
+  display: none;
+}
+span:hover #microphoneDD {
+  display: block;
+  position: relative;
+  right: 50px;
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  width: 100px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#buttonDiv {
+  text-align: center;
+}
+
+.sbButton {
+  margin: 6px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid LightGray;
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #404040;
+  background-color: #cccccc;
+  background: -webkit-linear-gradient(#f5f5f5, #f2f2f2);
+  background:    -moz-linear-gradient(#f5f5f5, #f2f2f2);
+  background:         linear gradient(#f5f5f5, #f2f2f2);
+}
+.sbButton:hover {
+  border: 1px solid DarkGray;
+  box-shadow: 0px 1px 1px DarkGray;
+  -webkit-box-shadow: 0px 1px 1px DarkGray;
+  -moz-box-shadow: 0px 1px 1px DarkGray;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border: 1px solid LightGray;
+  line-height: 40px;
+  color: #616161;
+  background-color: #ededed;
+  text-align: justify;
+  vertical-align: middle;
+}
+
+#left {
+  float: left;
+  margin-left: 30px;
+}
+
+#right {
+  float: right;
+  margin-right: 30px;
+}
+
+.footLink {
+  display: inline-block;
+  padding: 0px 12px 0px 12px;
+}
+
+.a1 {
+  text-decoration: none;
+  color: #616161;
+}
+
+.a1:hover {
+  text-decoration: underline;
+}
+
+.a2 {
+  text-decoration: none;
+  color: white;
+}
+
+.a2:hover {
+  cursor: default;
+}
